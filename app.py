@@ -11,6 +11,24 @@ def perdicton_price(area_type_no,size,total_sqft,bath, balcony ,price_per_sqft,l
 def main():
     st.title('House Price Prediction')
     st.subheader('Benglore city')
+    with st.sidebar:
+        with st.spinner("Loading..."):
+            time.sleep(5)
+        st.success("Model Ready!")
+        
+        st.link_button("Contact Us", "https://www.linkedin.com/in/aakash-mohole-231359233/")
+        st.link_button("Contribute", "https://github.com/aakashmohole/ML-Project")
+
+        with st.expander("Devlopers info"):
+            st.write("""
+                    1. [Aaksh Mohole](https://www.linkedin.com/in/aakash-mohole-231359233/)
+                    2. [Vinayak Vathare](https://www.linkedin.com/in/vinayak-vathare-4bb135279/)
+                    3. [Shreyash Shetty](https://www.linkedin.com/in/shreyash-shetty-51a640295/)
+        
+            """)
+            #st.image("https://static.streamlit.io/examples/dice.jpg")
+
+    
     area_type = st.selectbox(
         'Select Area Type?',
         ('Super built-up  Area', 'Built-up  Area', 'Plot  Area', 'Carpet  Area'))
@@ -70,6 +88,7 @@ def main():
     if st.button("Predict"):
             result = perdicton_price(area_type_no,size,total_sqft,bath, balcony ,price_per_sqft,location_no)
     st.success('The Price is {} /- Lacks'.format(result))
+
 
 if __name__ == '__main__':
     main()
