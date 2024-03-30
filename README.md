@@ -11,34 +11,9 @@ The dataset used in this project consists of information about different residen
 The main objective of this project is to leverage machine learning techniques to build a robust predictive model for house price estimation. By training the model on historical data and leveraging its learned patterns and relationships, it will be able to predict the prices of new or unseen houses accurately.
 
 ## Required libraries to Run this project
-1) Numpy
-
+## Setup 
 ```bash
-  pip install numpy 
-```
-2) Pandas
-
-```bash
-  pip install Pandas 
-```
-
-3) Matplotlib
-
-```bash
-  pip install Matplotlib 
-```
-
-4) scikit
-
-```bash
-  pip install scikit-learn 
-```
-
-
-4) Streamlit
-
-```bash
-  pip install streamlit
+  pip install -r requirements.txt
 ```
 
 
