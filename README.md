@@ -1,7 +1,6 @@
 # HOUSE PRICE PREDICATION 🏠💸
 
-https://www.houseplans.net/news/wp-content/uploads/2023/07/57260-768.jpeg
-
+![](https://nycdsa-blog-files.s3.us-east-2.amazonaws.com/2021/03/chaitali-majumder/house-price-497112-KhCJQICS.jpg)
 This data science project focuses on predicting house prices using a dataset containing various features and attributes related to residential properties. By analyzing and modeling the data, the project aims to develop a predictive model that can estimate the sale prices of houses accurately.
 
 ## DATASET INFORMATION
