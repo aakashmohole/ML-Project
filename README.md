@@ -1,7 +1,8 @@
 
 #  🏠 HOUSE PRICE PREDICATION
 
-![](https://nycdsa-blog-files.s3.us-east-2.amazonaws.com/2021/03/chaitali-majumder/house-price-497112-KhCJQICS.jpg)
+![](https://github.com/aakashmohole/ML-Project/blob/main/src/image/home.png)
+
 This data science project focuses on predicting house prices using a dataset containing various features and attributes related to residential properties. By analyzing and modeling the data, the project aims to develop a predictive model that can estimate the sale prices of houses accurately.
 
 ## DATASET INFORMATION
@@ -21,17 +22,20 @@ The main objective of this project is to leverage machine learning techniques to
 The project will involve several steps, including data preprocessing, exploratory data analysis, feature engineering, model selection, and evaluation. Techniques such as data cleaning, handling missing values, feature scaling, and encoding categorical variables will be employed to prepare the dataset for model training. Various regression algorithms, such as linear regression, random forests will be explored and evaluated to determine the most suitable model for accurate price prediction.
 
 ## MODEL INFORMATION 
-
-![image](https://github.com/VathareVinayak/task/assets/137673662/10ffa298-e5d2-4a37-952a-9fd0d384ae0c)
-
-We can see the Linear model is not accurate as Random forest so we go with Random forest
-
 ### HOW THE RANDOM FOREST WORKS 
-![WORKING-RANDOMFOREST](https://github.com/VathareVinayak/task/assets/137673662/1aeeb7c8-d29f-4e3f-b66c-647b314002cf)
+![image](https://github.com/aakashmohole/ML-Project/blob/main/src/image/rf.png)
 
 
 ## DEMO
+![Live Demo: ](https://github.com/aakashmohole/ML-Project/blob/main/src/image/output.gif)
 
 
-https://github.com/VathareVinayak/task/assets/137673662/f756048d-1092-4600-bf40-53781bc61061
+## Contributors
 
+- Aakash Mohole: Implemented the data preprocessing module.
+- Vinayak Vathare: Designed the user interface.
+- Shreyash Shetty: Documentation and README.md
+
+For a complete list of contributors, see [Contributors](https://github.com/aakashmohole/ML-Project/graphs/contributors).
+
+![Aakash Mohole](https://img.shields.io/github/contributors/aakashmohole/ML-Project)
